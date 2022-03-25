@@ -112,6 +112,36 @@ nav{
 }
 // ------------------- end navbar -------------------
 
+// ----------------------- SEÇÃO QUEM SOU ----------------------------
+.secao-quem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-quem{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .minha-foto{
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    .sobre-mim{
+        margin-left: 50px;
+
+        h1{
+            margin-bottom: 7px;
+        }
+    }
+}
+
+// ---------------------------------------------------------------------
+
 
 // ----------------------- SEÇÃO O QUE FAÇO ----------------------------
 .titulo-secao{
@@ -129,6 +159,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
     .div-cards{
         display: flex;
@@ -247,6 +278,33 @@ hr.hr{
     transform: translateX(0%);
 }
 // ------------------- end responsive navbar -------------------
+
+
+
+@media screen and (max-width: 890px){
+    .conteudo-quem{
+        flex-direction: column;
+        .minha-foto{
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+        .sobre-mim{
+            margin: 0 20px 0 20px;
+        }
+
+        h1{
+            margin-top: 20px;
+        }
+    }
+    .div-cards{
+        flex-direction: column;
+        .card-oquefaco{
+            margin-top: 15px;
+        }
+    }
+}
 
 
 // +++++++++++++++++++++++++++ end responsive +++++++++++++++++++++++++++

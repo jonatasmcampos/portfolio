@@ -1,8 +1,30 @@
 @extends('structureHTML')
 
 @section('conteudo')
+
+    <!-- ----------------- SEÇÃO QUEM SOU ----------------- -->
+
+    <div class="secao-quem margin-top-100">
+
+        <h1 class="titulo-secao">Quem sou</h1>
+        <h2 class="subtitulo-secao">Eu</h2>
+        
+        <hr class="hr">
+
+        <div class="conteudo-quem">
+            <div class="minha-foto">
+                <img src="{{asset('assets/images/minhafoto.jpeg')}}" alt="Minha foto">
+            </div>
+            <div class="sobre-mim">
+                <h1>Sobre mim</h1>
+                <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla blabla bla bla </p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------- END SEÇÃO QUEM SOU ----------------- -->
+
     
-    <!-- SEÇÃO O QUE FAÇO -->
+    <!-- ----------------- SEÇÃO O QUE FAÇO ----------------- -->
     <div class="secao-oque margin-top-100">
 
         <h1 class="titulo-secao">O que faço</h1>
@@ -37,4 +59,5 @@
 
     </div>
 
+    <!-- ----------------- END SEÇÃO O QUE FAÇO ----------------- -->
 @endsection

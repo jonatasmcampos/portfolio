@@ -123,6 +123,48 @@ nav {
           transform: rotate(45deg) translate(-3px, -3px);
 }
 
+.secao-quem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteudo-quem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteudo-quem .minha-foto img {
+  width: 400px;
+  height: 400px;
+}
+
+.conteudo-quem .sobre-mim {
+  margin-left: 50px;
+}
+
+.conteudo-quem .sobre-mim h1 {
+  margin-bottom: 7px;
+}
+
 .titulo-secao {
   color: #EF8027;
   letter-spacing: 2px;
@@ -148,6 +190,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .secao-oque .div-cards {
@@ -295,5 +338,33 @@ hr.hr {
 .go-back {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
+}
+
+@media screen and (max-width: 890px) {
+  .conteudo-quem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .conteudo-quem .minha-foto img {
+    width: 300px;
+    height: 300px;
+  }
+  .conteudo-quem .sobre-mim {
+    margin: 0 20px 0 20px;
+  }
+  .conteudo-quem h1 {
+    margin-top: 20px;
+  }
+  .div-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .div-cards .card-oquefaco {
+    margin-top: 15px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
