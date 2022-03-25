@@ -2,10 +2,12 @@
 of the page to change the background opacity
 of the navigation bar. 0 = transparent -- 1 visible */
 var navbar = document.getElementById('navbar')
+var a = document.querySelectorAll('a')
+
 document.onscroll = function () {
     (window.pageYOffset >= 250) 
         ? navbar.style.background = "rgba(27, 27, 27, 1)"
-        : navbar.style.background = "rgba(255, 255, 255, 1)"
+        : navbar.style.background = "rgba(255, 255, 255, 0)"
 }
 
 /* ---------------------------- show and hide the menu ---------------------------- */

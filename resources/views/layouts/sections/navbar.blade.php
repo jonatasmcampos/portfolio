@@ -2,7 +2,7 @@
 <div class="background-image">
     <nav class="container" id="navbar">
         {{-- ↓↓ logo ↓↓ --}}
-        <div>
+        <div class="logo">
             <h2 class="custom-title">Jônatas M Campos<br><span>Desenvolvedor</span></h2>
         </div>
         {{-- ↓↓ anchors for certain parts of the page ↓↓ --}}
