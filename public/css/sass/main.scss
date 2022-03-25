@@ -14,6 +14,18 @@
 // ------------------- end common in all code -------------------
 
 // ------------------- navbar -------------------
+.custom-title{
+    color: #000;
+    font-size: 18px;
+
+    span{
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: $secondary-color;
+        float: right;
+    }
+}
+
 .background-image{
     background-image: url(../../assets/images/background-gif.gif);
     background-size: cover;
@@ -26,6 +38,7 @@
 .container{
     padding: 15px;
     width: 100%;
+    background-color: #fff;
 }
 
 nav{
@@ -45,6 +58,7 @@ nav{
         list-style: none;
         margin: 15px;
         letter-spacing: 2px;
+        font-weight: bold;
     }
     a:hover{
         color: $secondary-color;
@@ -57,7 +71,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .social-media{
@@ -74,12 +88,8 @@ a{
         width: 25px;
         height: 3px;
         margin: 5px;
-        background-color: #fff;
+        background-color: #000;
     }
-}
-
-.go-back{
-    transform: translateX(0%);
 }
 
 .line1 {
@@ -119,9 +129,16 @@ a{
             margin: 0;
         }
     }
+    a{
+        color: #fff;
+    }
     .toggle-menu{
         display: block;
     }
+}
+
+.go-back{
+    transform: translateX(0%);
 }
 // ------------------- end responsive navbar -------------------
 

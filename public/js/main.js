@@ -5,7 +5,7 @@ var navbar = document.getElementById('navbar')
 document.onscroll = function () {
     (window.pageYOffset >= 250) 
         ? navbar.style.background = "rgba(27, 27, 27, 1)"
-        : navbar.style.background = "rgba(27, 27, 27, 0)"
+        : navbar.style.background = "rgba(255, 255, 255, 1)"
 }
 
 /* ---------------------------- show and hide the menu ---------------------------- */

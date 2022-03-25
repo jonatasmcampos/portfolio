@@ -769,7 +769,7 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?38c4d2499557ae0379fd160e1
 .bi-gift-fill::before { content: "\f3eb"; }
 .bi-gift::before { content: "\f3ec"; }
 .bi-github::before { content: "\f3ed"; }
-.bi-github {color: #fff}
+.bi-github {color: #000; font-size: 18px;}
 .bi-github:hover {color: #EF8027}
 .bi-globe::before { content: "\f3ee"; }
 .bi-globe2::before { content: "\f3ef"; }
@@ -904,7 +904,7 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?38c4d2499557ae0379fd160e1
 .bi-link-45deg::before { content: "\f470"; }
 .bi-link::before { content: "\f471"; }
 .bi-linkedin::before { content: "\f472"; }
-.bi-linkedin {color: #fff}
+.bi-linkedin {color: #000; font-size: 18px;}
 .bi-linkedin:hover {color: #EF8027}
 .bi-list-check::before { content: "\f473"; }
 .bi-list-nested::before { content: "\f474"; }

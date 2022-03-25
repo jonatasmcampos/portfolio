@@ -2,8 +2,8 @@
 <div class="background-image">
     <nav class="container" id="navbar">
         {{-- ↓↓ logo ↓↓ --}}
-        <div class="logo">
-            <a href="/"><img src="{{asset('assets/images/logo.png')}}" alt="Logo"></a>
+        <div>
+            <h2 class="custom-title">Jônatas M Campos<br><span>Desenvolvedor</span></h2>
         </div>
         {{-- ↓↓ anchors for certain parts of the page ↓↓ --}}
         <ul class="nav-items " id="nav-items">
